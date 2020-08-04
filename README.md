@@ -3,7 +3,7 @@
 A professional photographers hub where you can create, meet and be inspired through photography. Here you can meet other photographers, view their portfolio  and hire them to create a memory phtoto album that stands out.
 
 
-## Getting Started
+##  Getting Started
 
 Photography is the art, application and practice of creating durable images by recording light or other electromagnetic radiation, either electronically by means of an image sensor, or chemically by means of a light-sensitive material such as photographic film.
 
