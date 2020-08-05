@@ -92,6 +92,7 @@ html {
     height: 100%;
     object-fit: cover;
     animation: scale 25s;
+    background-size: cover;
 }
 
 @keyframes scale {
