@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
     margin: 0;
     padding: 0;
@@ -242,3 +243,18 @@ button:active {
 .social-media i:hover{
     background-color: #c29525;
 }
+=======
+.pfbody{
+position: absolute;
+width: 100vw;
+height: 100vh;
+
+background: url(hicam/images/BW-contrast-featured.jpg);
+}
+
+
+.pfnav {
+  height: 100vh;
+  width: 100vw;
+}
+>>>>>>> abdijabar
