@@ -11,7 +11,7 @@ document.querySelector(".hamburger-menu").addEventListener("click", () => {
     document.querySelector(".container").classList.toggle("change");
 });
 
-//############################################################################################ Progress Bar
+//############################################################### Progress Bar
 (function($){  
     if($('.progress-line').length){
         $('.progress-line').appear(function(){

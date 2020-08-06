@@ -1,0 +1,28 @@
+.cong-bg
+{
+    background: url(/images/cam1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+a
+{
+    color: yellow;
+    font-family:Tahoma, Geneva, sans-serif;
+    margin-left: 30px;
+}
+.cong
+{
+    background: rgba(44,62,80,0.7);
+    padding: 40px;
+    
+    height: 300px;
+    margin-left: 180px;
+    margin: 0 auto;
+    margin-top: 120px;
+    width: 300px;
+}
+.cong-h2
+{
+    margin-top: 50px;
+    margin-left: 10px;
+}
