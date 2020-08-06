@@ -1,3 +1,4 @@
+
 {
    
 }
@@ -6,3 +7,7 @@ $('.main').click(function () {
     $(this).children('.show').toggle(2000);
   });
   
+=======
+document.querySelector(".hamburger-menu").addEventListener("click", () => {
+    document.querySelector(".container").classList.toggle("change");
+});
