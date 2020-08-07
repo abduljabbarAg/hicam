@@ -1,6 +1,6 @@
 .cong-bg
 {
-    background: url(/images/cam1.jpg);
+    background: url(../images/cam1.jpg);
     background-size: cover;
     background-position: center;
 }
