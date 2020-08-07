@@ -1,3 +1,26 @@
+@media only screen and (max-width:800px) {
+
+    /* For tablets: */
+    .main {
+        width: 80%;
+        padding: 0;
+    }
+
+    .right {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:500px) {
+
+    /* For mobile phones: */
+    .menu,
+    .main,
+    .right {
+        width: 100%;
+    }
+}
+
 * {
     margin: 0px;
     padding: 0px;
@@ -14,9 +37,8 @@ html {
 body {
     background-image: url("../images/background.png");
     background-size: cover;
+    background-repeat: no-repeat;
     background-attachment: fixed;
-
-
 }
 
 .navbar navbar-expand-md bg-dark navbar-dark {
@@ -26,7 +48,6 @@ body {
     min-height: 8vh;
     background-color: #333333;
     font-family: "Baloo da 2", serif;
-    opacity: 0;
 }
 
 .logo {
@@ -37,8 +58,9 @@ body {
 
 .navbar-nav {
     display: flex;
-    justify-content: space-around;
-    width: 30%;
+    justify-content: flex-end;
+    width: 100vw;
+
 }
 
 .navbar-nav a {
