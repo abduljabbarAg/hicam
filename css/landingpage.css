@@ -11,15 +11,15 @@ html {
     font-size: 62.5%;
 }
 
-body{
+body {
     background-image: url("../images/background.png");
     background-size: cover;
     background-attachment: fixed;
-    
-   
+
+
 }
 
-.navbar navbar-expand-md bg-dark navbar-dark{
+.navbar navbar-expand-md bg-dark navbar-dark {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -29,20 +29,20 @@ body{
     opacity: 0;
 }
 
-.logo{
-    color:rgba(226,226,226);
+.logo {
+    color: rgba(226, 226, 226);
     letter-spacing: 5px;
     font-size: 20px;
 }
 
-.navbar-nav{
+.navbar-nav {
     display: flex;
     justify-content: space-around;
     width: 30%;
 }
 
-.navbar-nav a{
-    color: rgba(226,226,226);
+.navbar-nav a {
+    color: rgba(226, 226, 226);
     text-decoration: none;
     justify-content: space-between;
     letter-spacing: 3px;
@@ -196,13 +196,14 @@ button:active {
     transform: scale(1.1);
 }
 
-.button{
+.button {
     color: #fff;
 }
 
 .button:hover {
     color: #c29525;
 }
+
 @keyframes moveBanner {
     0% {
         transform: translateY(40rem)rotateY(-20deg);
@@ -260,7 +261,7 @@ button:active {
     transition: width 0.3s ease-in-out;
 }
 
-.menu-link:hover{
+.menu-link:hover {
     color: #c29525;
 }
 
