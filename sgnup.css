@@ -2,7 +2,7 @@ body
 {
     font-family: Tahoma, Geneva, sans-serif;
     color: #fff;
-    background: url(../images/cam1.jpg);
+    background: url(images/cam1.jpg);
     background-size: cover;
     background-position: center;
 }
