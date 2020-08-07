@@ -1,3 +1,90 @@
+
+@media only screen and (max-width:800px) {
+    /* For tablets: */
+    .main {
+      width: 80%;
+      padding: 0;
+    }
+    .right {
+      width: 100%;
+    }
+  }
+  @media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    .menu, .main, .right {
+      width: 100%;
+    }
+  }
+
+body  {
+    background-image: url("https://texturefabrik.files.wordpress.com/2013/11/tf_refined_grunge_03.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    
+  }
+
+#mainpadding { /*main padding landing page settings*/
+    padding-top: 12%;
+    margin-bottom: 9%;
+    text-align: center;
+    text-transform: uppercase;
+    text-indent: 50px;
+    text-align: justify;
+    letter-spacing: 3px;
+}
+.highlighted {
+    background-color: rgba(0,0,0,.5);
+}
+
+.jumbotron {
+    padding: 0rem 0rem; 
+    margin-bottom: 0px; 
+    background-color: #e9ecef;
+    border-radius: 1px; 
+}
+
+
+#background {  /*Main background settings*/
+    background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/9e406f86-2af4-414e-9764-5f4212d846b0/d3jeu1r-bfe873da-fb83-4ebc-b823-09f049c680b9.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvOWU0MDZmODYtMmFmNC00MTRlLTk3NjQtNWY0MjEyZDg0NmIwXC9kM2pldTFyLWJmZTg3M2RhLWZiODMtNGViYy1iODIzLTA5ZjA0OWM2ODBiOS5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.Ps53tkkITepLb_KIdD5pUJZjxlkJgdZ2GpXd9eIK3xU');
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    background-attachment: fixed;
+}
+
+
+.mainheading { /*main heading welcome to delani studio settings*/
+    font-family: "Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif";
+    text-shadow: 0 0 15px black;
+    color: rgb(7, 7, 6);
+    font-size: 80px;
+    
+
+}
+
+.mainheading2 { /*main heading welcome to delani studio settings*/
+    font-family: "Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif";
+    text-shadow: 0 0 15px black;
+    color: rgb(7, 7, 6);
+    font-size: 50px;
+    
+
+}
+
+
+.slogan { /*main heading slogan settings*/
+    font-family: "Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif";
+    text-shadow: 0 0 10px rgb(0, 0, 0);
+    color: rgb(20, 15, 15);
+    font-size: 20px;
+
+}
+    
+    .hide { /*hide details for js function click settings*/
+        display: none;
+    }
+
 .pfbody{
     position: absolute;
     width: 100vw;
@@ -9,6 +96,7 @@
     
     
     .pfnav {
-      height: 100vh;
+      height: 10px;
       width: 100vw;
     }
+
